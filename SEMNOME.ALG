@@ -1,0 +1,13 @@
+algoritmo "conversorMoedas"
+var
+   r, d, cont: real
+inicio
+   cont <- 1
+   enquanto (cont <= 4) faca
+       escreva ("Qual o valor em real:R$ ")
+       leia (r)
+       d <- r/5.69
+       escreval ("O valor convertido é de: US$ ", d:4:2)
+       cont <- cont + 1
+   Fimenquanto
+fimalgoritmo
