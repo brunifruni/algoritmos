@@ -1,34 +1,36 @@
-algoritmo "PROGRAMAVIDASAUDAVEL"
+algoritmo "alugueldecarros"
 var
+   carro: caractere
    dias: inteiro
-   ta, tt, pontos, valor: real
+   km, total: real
 
 inicio
-      escreval ("------------------")
-      escreval ("PROGRAMA VIDA SAUDÁVEL")
-      escrevaL ("------------------")
-      escreval ("Digite quantos dias você praticou atividade física neste mês: ")
+      escreval ("Qual o tipo de carro vocÃª alugou? ")
+      escreval ("[1] POPULAR")
+      escreval ("[2] LUXO")
+      leia (carro)
+      escreval ("Por quantos dias vocÃª alugou o carro? ")
       leia (dias)
-      escreval ("Quanto tempo durou a pratica de cada atividade? ")
-      leia (ta)
-      tt <- dias * ta
-      se (tt <= 10) entao
-         pontos <- 2 * tt
+      escreval ("Quantos KM foram percorridos com o carro? ")
+      leia (km)
+      se (carro = "[1]") e (km <= 100) entao
+         total <- (90 * dias) + (km * 0.20)
       senao
-      se  ( tt > 10) e ( tt <= 20) entao
-          pontos<- 5*tt
+      se (carro = "1") e ( km > 100) entao
+         total <- (90 * dias) + (km * 0.10)
       senao
-      se (tt > 20) entao
-         pontos  < - 10 * tt
+      se (carro = "2") e (km <= 200) entao
+         total <- (150 * dias) + ( km * 0.30)
       senao
-      fimse
-      fimse
-      fimse
-      valor  <- pontos * 0.05
-      escreval ("Este mês você faturou R$ ", valor, " praticando atividades físicas! Continue assim!")
-
-
-      
-      
+      se (carro = "2") e ( km > 200) entao
+         total <- (150 * dias) + (km * 0.25)
+      senao
+fimse
+fimse
+fimse
+fimse
+      escreval (" O total a ser pago pelo aluguel do veÃ­culo Ã© de R$ ", total)
 
 fimalgoritmo
+
+
