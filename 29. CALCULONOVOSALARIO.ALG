@@ -4,16 +4,16 @@ var
    anos: inteiro
    salario, nsal, aumento: real
 inicio
-   escreva ("Escreva o nome do funcion·rio: ")
+   escreva ("Escreva o nome do funcion√°rio: ")
    leia (nome)
 
-   escreva ("Digite o sal·rio do funcion·rio: ")
+   escreva ("Digite o sal√°rio do funcion√°rio: ")
    leia (salario)
 
-   escreva ("H· quantos anos est· na empresa? ")
+   escreva ("H√° quantos anos est√° na empresa? ")
    leia (anos)
 
-   // DefiniÁ„o do percentual de aumento
+   // Defini√ß√£o do percentual de aumento
    se (anos <= 3) entao
       aumento <- 0.03
    senao
@@ -24,10 +24,10 @@ inicio
       fimse
    fimse
 
-   // Agora sim, calcular o novo sal·rio corretamente
+   // Agora sim, calcular o novo sal√°rio corretamente
    nsal <- salario + (salario * aumento) // Aqui estava o erro!
 
-   // ExibiÁ„o do resultado
-   escreval ("O novo sal·rio do funcion·rio È de R$ ", nsal:0:2)
+   // Exibi√ß√£o do resultado
+   escreval ("O novo sal√°rio do funcion√°rio √© de R$ ", nsal:0:2)
 
 fimalgoritmo
