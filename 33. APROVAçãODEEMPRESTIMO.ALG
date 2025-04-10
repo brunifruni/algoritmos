@@ -1,4 +1,4 @@
-algoritmo "aprovaçãodeemprestimo"
+algoritmo "aprovaÃ§Ã£odeemprestimo"
 var
    valorcasa, salario, pm: real
    anos: inteiro
@@ -6,16 +6,16 @@ var
 inicio
       escreva ("Qual o valor da casa? ")
       leia (valorcasa)
-      escreva ("Digite o salário do comprador: ")
+      escreva ("Digite o salÃ¡rio do comprador: ")
       leia (salario)
-      escreva ("Em quantos anos você pretende pagar o empréstimo? ")
+      escreva ("Em quantos anos vocÃª pretende pagar o emprÃ©stimo? ")
       leia (anos)
 
       pm <- valorcasa / (anos * 12)
       
       se pm > salario * 0.3 entao
-         escreval ("Empréstimo negado!")
+         escreval ("EmprÃ©stimo negado!")
       senao
-         escreval ("O valor da parcela mensal do empréstimo é de R$ ", pm:5:2)
+         escreval ("O valor da parcela mensal do emprÃ©stimo Ã© de R$ ", pm:5:2)
       fimse
 fimalgoritmo
