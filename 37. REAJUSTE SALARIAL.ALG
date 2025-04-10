@@ -5,15 +5,15 @@ var
    gen, nome: caractere
 
 inicio
-      escreval( "Digite o nome do funcion·rio: ")
+      escreval( "Digite o nome do funcion√°rio: ")
       leia (nome)
-      escreval ("Digite o sal·rio atual do funcion·rio: R$ ")
+      escreval ("Digite o sal√°rio atual do funcion√°rio: R$ ")
       leia (sal)
-      escreval ("Selecione o gÍnero do funcion·rio: ")
+      escreval ("Selecione o g√™nero do funcion√°rio: ")
       escreval ("[1] F")
       escreval ("[2] M")
       leia (gen)
-      escreval ("Digite h· quantos anos este funcion·rio trabalha na empresa: ")
+      escreval ("Digite h√° quantos anos este funcion√°rio trabalha na empresa: ")
       leia (t)
       se (gen = "1") e (t <15) entao
          nsal <- sal + (sal * 0.05)
@@ -39,6 +39,6 @@ inicio
       fimse
       fimse
       fimse
-      escreval ("O sal·rio reajustado do funcion·rio ser· de R$ ", nsal)
+      escreval ("O sal√°rio reajustado do funcion√°rio ser√° de R$ ", nsal)
       
 fimalgoritmo
