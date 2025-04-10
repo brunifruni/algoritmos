@@ -8,7 +8,7 @@ inicio
       Escreval ("---------------------")
       Escreval ("LOCADORA DE CARROS BRUXILDES")
       Escreval ("---------------------")
-      Escreval ("Quantos KMs foram percorridos com o veículo? ")
+      Escreval ("Quantos KMs foram percorridos com o veÃ­culo? ")
       Leia (dist)
       Escreval ("Por quantos dias ele foi alugado?")
       Leia (dia)
@@ -16,9 +16,9 @@ inicio
       v1 <- dist * 0.20
       v2 <- dia * 90
       total <- v1 + v2
-      Escreval ("O total a ser pago é de: R$ ", total)
+      Escreval ("O total a ser pago Ã© de: R$ ", total)
       Escreval ("---------------------")
-      Escreval ("A LOCADORA BRUXILDES AGRADECE A PREFERÊNCIA")
+      Escreval ("A LOCADORA BRUXILDES AGRADECE A PREFERÃŠNCIA")
       
 
       
