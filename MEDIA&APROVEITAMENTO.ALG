@@ -8,7 +8,7 @@ inicio
    escreva ("Segunda nota: ")
    leia (n2)
    media <- (n1 + n2)/2
-   escreval ("A sua média é ", media:4:2)
+   escreval ("A sua mÃ©dia Ã© ", media:4:2)
    se (media < 5.00) entao
       escreval ("APROVEITAMENTO: F" )
    fimse
