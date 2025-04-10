@@ -3,9 +3,9 @@ var
    d1: real
 
 inicio
-      escreva (" Digite uma dist‚ncia em metros: ")
+      escreva (" Digite uma dist√¢ncia em metros: ")
       leia (d1)
-      escreval ("A dist‚ncia de " ,d1, "metros" ," corresponde a: ")
+      escreval ("A dist√¢ncia de " ,d1, "metros" ," corresponde a: ")
       escreval (d1*10, "dm")
       escreval (d1*100, "cm")
       escreval (d1*1000, "mm")
