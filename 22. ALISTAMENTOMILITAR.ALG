@@ -11,12 +11,12 @@ inicio
       tp <- idade - 18
       tf <-  18 - idade
       se (idade = 18) entao
-         escreval ("Você deve se alistar este ano!")
+         escreval ("VocÃª deve se alistar este ano!")
       senao
-      se ( idade > 18) então
-         escreval (" Já se passaram ", tp, " anos do alistamento.")
+      se ( idade > 18) entÃ£o
+         escreval (" JÃ¡ se passaram ", tp, " anos do alistamento.")
       senao
-           escreval ("Faltam " , tf, " anos para você se alistar")
+           escreval ("Faltam " , tf, " anos para vocÃª se alistar")
       fimse
       fimse
 
