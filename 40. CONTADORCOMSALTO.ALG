@@ -4,12 +4,12 @@ var
    contador,n,salto: inteiro
 
 inicio
-      escreva ("Digite um número: ")
+      escreva ("Digite um nÃºmero: ")
       leia (n)
       escreva ("Qual o valor do salto? ")
       leia (salto)
       contador <- 0
-      enquanto (contador <= n) faça
+      enquanto (contador <= n) faÃ§a
       escreval (contador)
       contador <- contador + salto
       fimenquanto
