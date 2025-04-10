@@ -5,7 +5,7 @@ inicio
      escreva ("Digite um numero: ")
      leia (n)
      contador <- 0
-     enquanto (contador <=n) faça
+     enquanto (contador <=n) faÃ§a
      escreval (contador)
      contador <- contador + 1
      fimenquanto
