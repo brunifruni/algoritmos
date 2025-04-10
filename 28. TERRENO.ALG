@@ -8,7 +8,7 @@ inicio
       escreva ("Digite o comprimento do terreno: ")
       leia (c)
       a <- l * c
-      escreval ("O seu terreno tem ", a, " m² e é classificado como:")
+      escreval ("O seu terreno tem ", a, " mÂ² e Ã© classificado como:")
       se (a <= 100) entao
          escreval ("TERRENO POPULAR")
       senao
