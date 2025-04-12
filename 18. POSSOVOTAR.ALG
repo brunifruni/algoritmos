@@ -1,15 +1,17 @@
 algoritmo "possovotar"
 var
-   idade, ano: inteiro
-
+     ano, nasc, idade: inteiro
 inicio
-      escreval("Digite o ano em que vocÃª nasceu: ")
-      leia (ano)
-      idade <- 2025 - ano
-      se (ano <= 2007) entao
-      escreval ("VocÃª tem ", idade, " anos e jÃ¡ pode votar!!")
-      senao
-      escreval ("VocÃª tem ", idade, " anos e ainda nÃ£o pode votar!")
-      fimse
+       escreva("Em que ano estamos? ")
+       leia (ano)
+       escreva ("Em que ano você nasceu? ")
+       leia (nasc)
+       idade <- ano - nasc
+       escreval ("Você tem ", idade, " anos")
+       se (idade >= 21) então
+       escreval ("Você já atingiu a maioridade e pode votar!")
+       senao
+       escreval ("Você ainda não atingiu a maioridade, portanto não pode votar!")
+       fimse
 
 fimalgoritmo
