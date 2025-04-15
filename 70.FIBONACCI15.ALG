@@ -6,7 +6,7 @@ inicio
    a <- 0
    b <- 1
 
-   escreval("Sequência de Fibonacci (15 primeiros termos):")
+   escreval("SequÃªncia de Fibonacci (15 primeiros termos):")
    escreval(a)
    escreval(b)
 
