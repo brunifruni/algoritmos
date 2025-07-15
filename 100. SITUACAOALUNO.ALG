@@ -14,7 +14,7 @@ inicio
    se med >= 7 entao
       retorne "APROVADO"
       se med < 7 e med > 5 entao
-         retorne "EM RECUPERA«√O"
+         retorne "EM RECUPERA√á√ÉO"
       senao
          retorne "REPROVADO"
       fimse
@@ -27,8 +27,8 @@ inicio
    Leia(n2)
    M <- Media(n1,n2)
    Sit <- Situacao(M)
-   Escreval ("A mÈdia do aluno È de: ", M:0:2)
-   Escreval ("SituaÁ„o ", Sit)
+   Escreval ("A m√©dia do aluno √© de: ", M:0:2)
+   Escreval ("Situa√ß√£o ", Sit)
 
 
 fimalgoritmo
