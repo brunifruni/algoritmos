@@ -1,0 +1,11 @@
+algoritmo "72.VETORES"
+var
+  v: vetor[1..10] de inteiro
+  i, n: inteiro
+inicio
+  para i <- 1 ate 10 faca
+    n <- n + 5
+    v[i] <- n
+    escreva(n)
+  fimpara
+fimalgoritmo
